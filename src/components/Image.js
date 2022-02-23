@@ -10,38 +10,35 @@ const Image = ({ img, imgData, setImg, setImgData }) => {
     <div className="child-1">
       <div className="image-container" id="image-container">
         <img
-          src={
-            require(`../assets/backgrounds/${backgrounds}.png`)
-              .default
-          }
+          src={require(`../assets/backgrounds/${backgrounds}.png`)}
           className="backgrounds"
           alt=""
         />
 
         <img
-          src={require(`../assets/ears/${ears}.png`).default}
+          src={require(`../assets/ears/${ears}.png`)}
           className="ears"
           alt=""
         />
 
         <img
-          src={require(`../assets/neck/${neck}.png`).default}
+          src={require(`../assets/neck/${neck}.png`)}
           className="neck"
           alt=""
         />
         <img
-          src={require(`../assets/leg/${leg}.png`).default}
+          src={require(`../assets/leg/${leg}.png`)}
           className="leg"
           alt=""
         />
 
         <img
-          src={require(`../assets/nose/${nose}.png`).default}
+          src={require(`../assets/nose/${nose}.png`)}
           className="nose"
           alt=""
         />
         <img
-          src={require(`../assets/mouth/${mouth}.png`).default}
+          src={require(`../assets/mouth/${mouth}.png`)}
           className="mouth"
           alt=""
         />
@@ -49,18 +46,18 @@ const Image = ({ img, imgData, setImg, setImgData }) => {
         <img
           src={
             require(`../assets/accessories/${accessories}.png`)
-              .default
+              
           }
           className="accessories"
           alt=""
         />
         <img
-          src={require(`../assets/hair/${hair}.png`).default}
+          src={require(`../assets/hair/${hair}.png`)}
           className="hair"
           alt=""
         />
         <img
-          src={require(`../assets/eyes/${eyes}.png`).default}
+          src={require(`../assets/eyes/${eyes}.png`)}
           className="eyes"
           alt=""
         />
