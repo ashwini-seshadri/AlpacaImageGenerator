@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Preview from "./components/Preview";
+import "/Users/ashwini/Desktop/Ashwini/Alpaca/my-app/src/styles/styles.css";
+
+// import bgImage from "./assets/backgrounds/blue50.png";
+// import ears from "./assets/ears/default.png";
+// import eyes from "./assets/eyes/default.png";
+// import hair from "./assets/hair/default.png";
+// import leg from "./assets/leg/default.png";
+// import mouth from "./assets/mouth/default.png";
+// import neck from "./assets/neck/default.png";
+// import nose from "./assets/nose/nose.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Preview />
     </div>
   );
 }
