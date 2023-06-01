@@ -2,6 +2,8 @@
 
 This is a simple Alpaca Image Generator built using React. It allows you to generate random alpaca images with just a click of a button.
 
+You can try it out [here](https://alpaca-image-generator-71awsy81v-ashwini-seshadri.vercel.app/).
+
 
 https://github.com/ashwini-seshadri/AlpacaImageGenerator/assets/88281470/fe418a12-44bf-4a29-bf1e-9efd00a7304f
 
