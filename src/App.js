@@ -1,5 +1,5 @@
 import Preview from "./components/Preview";
-import "/Users/ashwini/Desktop/Ashwini/Alpaca/my-app/src/styles/styles.css";
+import "./styles/styles.css";
 
 // import bgImage from "./assets/backgrounds/blue50.png";
 // import ears from "./assets/ears/default.png";
